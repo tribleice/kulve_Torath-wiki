@@ -100,9 +100,8 @@ h4 {
 #content {
   font-family: 'Georgia', serif;        /* 衬线字体提升可读性 */
   line-height: 1.8;                     /* 行高增加呼吸感 */
-  color: #4a4a4a;                       /* 正文深灰色 */
-  max-width: 800px;                     /* 限制行宽避免阅读疲劳 */
-  margin: 0 auto;                       /* 居中排版 */
+  /*color: #4a4a4a; */                      /* 正文深灰色 */
+  max-width: 800px;                     /* 限制行宽避免阅读疲劳 */ 
 }
 
 /* 段落样式 */
@@ -111,11 +110,6 @@ p {
   text-align: justify;                  /* 两端对齐更整洁 */
 }
 
-/* 强调文字 */
-strong {
-  color: #e74c3c;                       /* 红色突出重点 */
-  font-weight: 600;
-}
 
 /* 引用块 */
 blockquote {
