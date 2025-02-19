@@ -1,0 +1,39 @@
+/* 目录样式 */
+#toc {
+  position: fixed;        /* 使目录固定在屏幕位置 */
+  top: 10%;               /* 设置目录离顶部的距离 */
+  left: 0;                /* 目录悬浮在页面的左侧 */
+  width: 220px;           /* 设置目录的宽度 */
+  padding: 20px;          /* 为目录添加一些内边距 */
+  background-color: #f8f9fa; /* 设置背景色 */
+  border-right: 1px solid #ddd; /* 给目录右侧添加一个边框 */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* 给目录添加阴影效果，使其更突出 */
+  z-index: 10;            /* 设置层级，确保目录显示在其他内容之上 */
+  overflow-y: auto;       /* 允许目录内容超过时滚动 */
+  max-height: 90vh;       /* 限制目录的最大高度，防止过长 */
+}
+
+/* 目录列表样式 */
+#toc ul {
+  list-style: none;       /* 去除默认的列表样式 */
+  padding: 0;             /* 去除内边距 */
+}
+
+#toc li {
+  margin-bottom: 10px;    /* 为每个列表项添加一些间距 */
+}
+
+#toc a {
+  text-decoration: none;  /* 去除链接的下划线 */
+  color: #007bff;         /* 设置链接的颜色 */
+}
+
+#toc a:hover {
+  text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+
+/* 主内容样式，给正文区域留出空间以防目录遮挡 */
+#content {
+  margin-left: 240px;  /* 设置左侧边距，确保内容不会被固定的目录遮挡 */
+  padding: 20px;       /* 为正文区域添加内边距 */
+}
