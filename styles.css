@@ -52,7 +52,7 @@ body {
 }
 
 /* 四级标题 */
-#toc li.level-3 {
+#toc li.level-4 {
   font-size: 12px;        /* 四级标题字体更小 */
   margin-left: 30px;      /* 四级标题进一步缩进 */
 }
