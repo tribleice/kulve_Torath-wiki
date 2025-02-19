@@ -41,6 +41,12 @@
   margin-left: 40px;      /* 三级标题进一步缩进 */
 }
 
+/* 四级标题 */
+#toc li.level-3 {
+  font-size: 10px;        /* 四级标题字体更小 */
+  margin-left: 60px;      /* 四级标题进一步缩进 */
+}
+
 #toc a {
   text-decoration: none;  /* 去除链接的下划线 */
   color: #007bff;         /* 设置链接的颜色 */
