@@ -229,7 +229,6 @@ a:hover {
         }
   /* 骑乘图 */
 .qct {
-  display: flex;
   width:80%
   height: auto; 
 }
