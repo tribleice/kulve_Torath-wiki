@@ -1,11 +1,14 @@
 /* 背景图 */
 body {
     background-image: url('assets/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover; /* 背景图覆盖整个页面 */
+    background-repeat: no-repeat; /* 防止背景图重复 */
+    background-position: center; /* 背景图居中 */
+    background-attachment: fixed; /* 背景图固定，不随页面滚动 */
     margin: 0;
-    height: 100vh;
+    min-height: 100vh; /* 确保 body 至少占满整个视口高度 */
+    display: flex;
+    flex-direction: column; /* 使内容垂直排列 */
 }
 
 /* 目录样式 */
@@ -74,45 +77,45 @@ body {
 
 /*----------- 标题层级 -----------*/
 h1 {
-  font-family: 'Arial', sans-serif;    /* 无衬线字体更现代 */
-  font-size: 2.5rem;                   /* 最大字号 */
-  color: #2c3e50;                      /* 深蓝色增加权威感 */
-  border-bottom: 3px solid #3498db;    /* 底部装饰线 */
-  padding-bottom: 0.5em;               /* 线与文字间距 */
-  margin: 2rem 0 1.5rem;               /* 上下边距分隔内容 */
-}
+            font-family: 'Arial', sans-serif;
+            font-size: 2.5rem;
+            color: #FFA500;
+            border-bottom: 3px solid #FFA500;
+            padding-bottom: 0.5em;
+            margin: 2rem 0 1.5rem;
+        }
 
-h2 {
-  font-family: 'Arial', sans-serif;
-  font-size: 2rem;
-  color: #34495e;                      /* 稍浅的深蓝色 */
-  margin: 1.5rem 0 1rem;
-  border-left: 4px solid #3498db;      /* 左侧装饰线 */
-  padding-left: 1rem;                  /* 避免文字贴线 */
-}
+        h2 {
+            font-family: 'Arial', sans-serif;
+            font-size: 2rem;
+            color: #FFA500;
+            margin: 1.5rem 0 1rem;
+            border-left: 4px solid #FFA500;
+            padding-left: 1rem;
+        }
 
-h3 {
-  font-size: 1.5rem;
-  color: #7f8c8d;                      /* 中灰色降低视觉权重 */
-  margin: 1rem 0 0.8rem;
-  background: #f8f9fa;                 /* 浅背景突出层级 */
-  padding: 0.5rem 1rem;
-  border-radius: 4px;                  /* 圆角柔和 */
-}
+        h3 {
+            font-size: 1.5rem;
+            color: #FFA500;
+            margin: 1rem 0 0.8rem;
+            background: rgba(255, 165, 0, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
 
-h4 {
-  font-size: 1.2rem;
-  color: #95a5a6;                      /* 更浅的灰色 */
-  margin: 0.8rem 0;
-}
+        h4 {
+            font-size: 1.2rem;
+            color: #FFA500;
+            margin: 0.8rem 0;
+        }
 
 /*----------- 正文内容 -----------*/
-#content {
-  font-family: 'Georgia', serif;        /* 衬线字体提升可读性 */
-  line-height: 1.8;                     /* 行高增加呼吸感 */
-  /*color: #4a4a4a; */                      /* 正文深灰色 */
-  /*max-width: 800px;*/                     /* 限制行宽避免阅读疲劳 */ 
-}
+    #content {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: #4a4a4a;
+            padding: 0 1rem;
+        }
 
 /* 段落样式 */
 p {
