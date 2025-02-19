@@ -37,3 +37,8 @@
   margin-left: 240px;  /* 设置左侧边距，确保内容不会被固定的目录遮挡 */
   padding: 20px;       /* 为正文区域添加内边距 */
 }
+
+#content {
+  margin-left: 100px;  /* 或者 padding-left: 100px; */
+  padding: 20px;       /* 为内容添加一些内边距 */
+}
