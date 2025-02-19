@@ -227,3 +227,11 @@ a:hover {
                 font-size: 14px;
             }
         }
+  /* 骑乘图 */
+.qct {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  width:80%
+  height: auto; 
+}
