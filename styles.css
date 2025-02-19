@@ -1,3 +1,13 @@
+/* 背景图 */
+body {
+    background-image: url('assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+}
+
 /* 目录样式 */
 #toc {
   position: fixed;        /* 使目录固定在屏幕位置 */
@@ -101,7 +111,7 @@ h4 {
   font-family: 'Georgia', serif;        /* 衬线字体提升可读性 */
   line-height: 1.8;                     /* 行高增加呼吸感 */
   /*color: #4a4a4a; */                      /* 正文深灰色 */
-  max-width: 800px;                     /* 限制行宽避免阅读疲劳 */ 
+  /*max-width: 800px;*/                     /* 限制行宽避免阅读疲劳 */ 
 }
 
 /* 段落样式 */
