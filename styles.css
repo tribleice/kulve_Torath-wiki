@@ -61,3 +61,109 @@
   margin-left: 240px;  /* 设置左侧边距，确保内容不会被固定的目录遮挡 */
   padding: 20px;       /* 为正文区域添加内边距 */
 }
+
+/*----------- 标题层级 -----------*/
+h1 {
+  font-family: 'Arial', sans-serif;    /* 无衬线字体更现代 */
+  font-size: 2.5rem;                   /* 最大字号 */
+  color: #2c3e50;                      /* 深蓝色增加权威感 */
+  border-bottom: 3px solid #3498db;    /* 底部装饰线 */
+  padding-bottom: 0.5em;               /* 线与文字间距 */
+  margin: 2rem 0 1.5rem;               /* 上下边距分隔内容 */
+}
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  color: #34495e;                      /* 稍浅的深蓝色 */
+  margin: 1.5rem 0 1rem;
+  border-left: 4px solid #3498db;      /* 左侧装饰线 */
+  padding-left: 1rem;                  /* 避免文字贴线 */
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #7f8c8d;                      /* 中灰色降低视觉权重 */
+  margin: 1rem 0 0.8rem;
+  background: #f8f9fa;                 /* 浅背景突出层级 */
+  padding: 0.5rem 1rem;
+  border-radius: 4px;                  /* 圆角柔和 */
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: #95a5a6;                      /* 更浅的灰色 */
+  margin: 0.8rem 0;
+}
+
+/*----------- 正文内容 -----------*/
+#content {
+  font-family: 'Georgia', serif;        /* 衬线字体提升可读性 */
+  line-height: 1.8;                     /* 行高增加呼吸感 */
+  color: #4a4a4a;                       /* 正文深灰色 */
+  max-width: 800px;                     /* 限制行宽避免阅读疲劳 */
+  margin: 0 auto;                       /* 居中排版 */
+}
+
+/* 段落样式 */
+p {
+  margin-bottom: 1.5rem;                /* 段落间距 */
+  text-align: justify;                  /* 两端对齐更整洁 */
+}
+
+/* 强调文字 */
+strong {
+  color: #e74c3c;                       /* 红色突出重点 */
+  font-weight: 600;
+}
+
+/* 引用块 */
+blockquote {
+  background: #f8f9fa;
+  border-left: 4px solid #3498db;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* 代码块 */
+pre {
+  background: #2d2d2d;                  /* 深色背景 */
+  color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;                     /* 横向滚动 */
+  font-family: 'Courier New', monospace;
+}
+
+/*----------- 列表与分隔线 -----------*/
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 2rem 0;
+}
+
+/* 链接样式 */
+a {
+  color: #3498db;                       /* 与标题装饰色一致 */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #2980b9;                       /* 悬停加深颜色 */
+  text-decoration: underline;
+}
+
