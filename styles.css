@@ -23,6 +23,24 @@
   margin-bottom: 10px;    /* 为每个列表项添加一些间距 */
 }
 
+/* 一级标题 */
+#toc li.level-1 {
+  font-size: 16px;        /* 一级标题字体稍大 */
+  font-weight: bold;      /* 一级标题加粗 */
+}
+
+/* 二级标题 */
+#toc li.level-2 {
+  font-size: 14px;        /* 二级标题字体稍小 */
+  margin-left: 20px;      /* 二级标题缩进 */
+}
+
+/* 三级标题 */
+#toc li.level-3 {
+  font-size: 12px;        /* 三级标题字体更小 */
+  margin-left: 40px;      /* 三级标题进一步缩进 */
+}
+
 #toc a {
   text-decoration: none;  /* 去除链接的下划线 */
   color: #007bff;         /* 设置链接的颜色 */
@@ -37,4 +55,3 @@
   margin-left: 240px;  /* 设置左侧边距，确保内容不会被固定的目录遮挡 */
   padding: 20px;       /* 为正文区域添加内边距 */
 }
-
